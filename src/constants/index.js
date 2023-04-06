@@ -7,7 +7,7 @@ export const navLinks = [
   },
   {
     id: "features",
-    title: "Features",
+    title: "Head-To-Head",
   },
   {
     id: "product",
@@ -23,23 +23,23 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "50/50% Win",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Don't compete against 1,000 or even 10 teams. All you need is to beat one.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "Level Up",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Create rivalries while you build up your rating and take on the NFL",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "No Wait Time",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Non stop back to back picks with no wait time in between.",
   },
 ];
 
@@ -73,17 +73,17 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
+    title: "Active Users",
     value: "3800+",
   },
   {
     id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
+    title: "Unique Drafts Generated",
+    value: "3800+",
   },
   {
     id: "stats-3",
-    title: "Transaction",
+    title: "Paid Out",
     value: "$230M+",
   },
 ];

@@ -5,6 +5,8 @@ import card from "./card.png";
 import coinbase from "./coinbase.png";
 import dropbox from "./dropbox.png";
 import logo from "./logo.svg";
+import mismatch_logo from "./mismatch_logo.jpeg";
+import micro_match_logo_sample from "./micro_match_logo_sample.png";
 import quotes from "./quotes.svg";
 import robot from "./robot.png";
 import send from "./Send.svg";
@@ -50,4 +52,6 @@ export {
   people01,
   people02,
   people03,
+  mismatch_logo,
+  micro_match_logo_sample
 };

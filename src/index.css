@@ -138,3 +138,219 @@
   background: rgba(255, 255, 255, 0.6);
   filter: blur(750px);
 }
+
+.pill {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 16px;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-right: 8px;
+}
+
+.pill-blue {
+  background-color: #2196f3;
+  color: #fff;
+}
+
+.pill-green {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.pill-red {
+  background-color: #f44336;
+  color: #fff;
+}
+
+.microDraft {
+  color: red;
+}
+
+.highlight {
+  color: blue;
+}
+
+.square{
+  background-color: black;
+  width: 100px;
+  height: 100px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  color: white; /* Set the text color to white */
+}
+
+.qb-square{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 0px;
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  color: black; /* Set the text color to white */
+  border: 1px solid white;
+
+}
+
+.rb-square{
+  width: 100px;
+  height: 100px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;  
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  background-color: blue;
+  color: black; /* Set the text color to white */
+  border: 1px solid white;
+
+}
+
+.wr-square{
+  width: 100px;
+  height: 100px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  background-color: green;
+  color: black; /* Set the text color to white */
+  border: 1px solid white;
+
+}
+
+.te-square{
+  width: 100px;
+  height: 100px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 10px;
+  background-color: yellow;
+  color: black; /* Set the text color to white */
+  border: 1px solid white;
+
+}
+
+.top-square {
+  background-color: black;
+  width: 100px;
+  height: 100px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  color: white; /* Set the text color to white */
+}
+
+.bottom-square {
+  background-color: black;
+  width: 100px;
+  height: 100px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: white; /* Set the text color to white */
+}
+
+.bottom-left-square {
+  background-color: black;
+  width: 100px;
+  height: 100px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  border-bottom-left-radius: 10px;
+  color: white; /* Set the text color to white */
+  border: 1px solid white;
+
+}
+
+.bottom-middle-square {
+  background-color: black;
+  width: 100px;
+  height: 100px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  /* box-shadow: 0px 5px 10px -5px rgba(255, 255, 255, 0.5); */
+  color: white; /* Set the text color to white */
+  border: 1px solid white;
+
+}
+
+.bottom-right-square {
+  background-color: black;
+  width: 100px;
+  height: 100px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  border-bottom-right-radius: 10px;
+  color: white; /* Set the text color to white */
+  border: 1px solid white;
+
+}
+
+/* Styles for small devices */
+@media (max-width: 600px) {
+  .bottom-square,
+  .top-square,
+  .te-square,
+  .qb-square,
+  .rb-square,
+  .wr-square,
+  .bottom-right-square,
+  .bottom-middle-square,
+  .bottom-left-square
+   {
+    width: 70px;
+    height: 70px;
+    font-size: 24px;
+  }
+}
+
+.bottom-left-square.flip {
+  transition: transform 0.5s ease-out;
+  transform-style: preserve-3d;
+}
+.bottom-left-square.flip .back {
+  transform: rotateY(0deg);
+}
+.bottom-left-square.flip .front {
+  transform: rotateY(-180deg);
+}
+.bottom-left-square .front,
+.bottom-left-square .back {
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.bottom-left-square .front {
+  transform: rotateY(0deg);
+}
+.bottom-left-square .back {
+  transform: rotateY(180deg);
+}
+
+

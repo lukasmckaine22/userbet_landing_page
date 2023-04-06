@@ -1,23 +1,25 @@
-import Navbar from "./Navbar";
-import Billing from "./Billing";
-import CardDeal from "./CardDeal";
-import Business from "./Business";
-import Clients from "./Clients";
+import Navbar from "./sections/Navbar";
+import Strategy from "./sections/Strategy";
+import DraftDraft from "./sections/DraftDraft";
+import H2H from "./sections/H2H";
+import Clients from "./sections/Clients";
 import CTA from "./CTA";
-import Stats from "./Stats";
-import Footer from "./Footer";
-import Testimonials from "./Testimonials";
-import Hero from "./Hero";
+import Stats from "./sections/Stats";
+import Footer from "./sections/Footer";
+import Testimonials from "./sections/Testimonials";
+import Hero from "./sections/Hero";
+import DraftBoardThrill from "./sections/DraftBoardThrill";
 
 export {
   Navbar,
-  Billing,
-  CardDeal,
-  Business,
+  Strategy as Billing,
+  DraftDraft as CardDeal,
+  H2H as Business,
   Clients,
   CTA,
   Stats,
   Footer,
   Testimonials,
   Hero,
+  DraftBoardThrill,
 };
