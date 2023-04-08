@@ -1,4 +1,4 @@
-import { card } from "../../assets";
+import { card, H2H_graphic } from "../../assets";
 import styles, { layout } from "../../style";
 import Button from "../Button";
 
@@ -16,7 +16,7 @@ const DraftDraft = () => (
     </div>
 
     <div className={layout.sectionImg}>
-      <img src={card} alt="billing" className="w-[100%] h-[100%]" />
+      <img src={H2H_graphic} alt="billing" className="w-[100%] h-[100%]" />
     </div>
   </section>
 );

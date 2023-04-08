@@ -25,6 +25,10 @@ import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
+import H2H_graphic from "./H2H_graphic.png";
+import slot_machine from "./micro_match_slot_machine_animation.mp4";
+import micro_match_drafting from "./micro_match_drafting.jpeg";
+
 
 export {
   airbnb,
@@ -53,5 +57,8 @@ export {
   people02,
   people03,
   mismatch_logo,
-  micro_match_logo_sample
+  micro_match_logo_sample,
+  H2H_graphic,
+  slot_machine,
+  micro_match_drafting
 };

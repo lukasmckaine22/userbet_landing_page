@@ -1,18 +1,21 @@
 import styles from "../../style";
-import { logo } from "../../assets";
+import { logo, micro_match_logo_sample } from "../../assets";
 import { footerLinks, socialMedia } from "../../constants";
 
 const Footer = () => (
   <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
     <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
       <div className="flex-[1] flex flex-col justify-start mr-10">
+        <div style={{ display: "flex", alignItems: "center" }}>
         <img
-          src={logo}
+          src={micro_match_logo_sample}
           alt="hoobank"
           className="w-[266px] h-[72.14px] object-contain"
         />
+      </div>
         <p className={`${styles.paragraph} mt-4 max-w-[312px]`}>
-          Innovating the best part of fantasy football, snake drafts with H2H micro drafts.
+          Micro Match strives to innovate on the best part of fantasy football, snake drafts while creating
+          more winners in the process.
         </p>
       </div>
 

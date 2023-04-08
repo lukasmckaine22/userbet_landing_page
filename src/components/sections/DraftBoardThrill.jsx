@@ -1,10 +1,15 @@
-import { apple, bill, google } from "../../assets";
+import { apple, bill, google, micro_match_drafting } from "../../assets";
 import styles, { layout } from "../../style";
+import ImageRotator from "../image_rotator";
+import Button from "../Button";
+
 
 const DraftBoardThrill = () => (
   <section id="product" className={layout.sectionReverse}>
+    
     <div className={layout.sectionImgReverse}>
-      <img src={bill} alt="billing" className="w-[100%] h-[100%] relative z-[5]" />
+      {/* <img src={micro_match_drafting} alt="billing" className="image-size" /> */}
+      <ImageRotator/>
 
       {/* gradient start */}
       <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient" />
@@ -14,16 +19,13 @@ const DraftBoardThrill = () => (
 
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        Feel The Rush With <br className="sm:block hidden" /> Every Draft Board
+        Feel The Rush With <br className="sm:block hidden" /> Every Micro Draft
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Every draft board brings new players and different positional advantages.
+        Every draft board brings a new group of players and different positional advantages.
       </p>
+      <Button styles={`mt-10`} />
 
-      <div className="flex flex-row flex-wrap sm:mt-10 mt-6">
-        <img src={apple} alt="google_play" className="w-[128.86px] h-[42.05px] object-contain mr-5 cursor-pointer" />
-        <img src={google} alt="google_play" className="w-[144.17px] h-[43.08px] object-contain cursor-pointer" />
-      </div>
     </div>
   </section>
 );

@@ -353,4 +353,31 @@
   transform: rotateY(180deg);
 }
 
+.image-size {
+  width: 150vw;
+  height: 150vh;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.image-container {
+  position: relative;
+}
+
+.image-transition {
+  position: absolute;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.image-visible {
+  opacity: 1;
+}
+
+
+
+
+
+
+
 
