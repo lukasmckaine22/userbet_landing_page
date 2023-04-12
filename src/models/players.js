@@ -9,7 +9,7 @@ const players = [
     apple,
     "KC",
     "PHI"
-  );
+  ),
   new Player("Josh Allen", "QB", 24, apple, "BUF", "NYJ"),
   new Player("Joe Burrow", "QB", 22, apple, "CIN", "CLE"),
   new Player("Justin Jefferson", "WR", 6, apple, "MIN", "GB"),

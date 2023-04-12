@@ -5,7 +5,7 @@ const MicroMatchPlayerCard = ({ player }) => {
   return (
     <div
       style={{
-        width: 350,
+        width: 300,
         height: 100,
         backgroundColor: "black",
         border: "solid 2px red",
@@ -14,6 +14,7 @@ const MicroMatchPlayerCard = ({ player }) => {
         justifyContent: "space-between",
         padding: 10,
         borderRadius: 10,
+        margin: 5,
       }}
     >
       <img

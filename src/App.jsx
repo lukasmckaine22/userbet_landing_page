@@ -36,7 +36,7 @@ const App = () => {
           {/* <Stats /> */}
           <DraftBoardThrill />
           {/* <MicroMatchPlayerCard player={examplePlayer} /> */}
-          <CardDeal />
+          {/* <CardDeal /> */}
           <Billing />
           <Business />
           {/* <Testimonials />

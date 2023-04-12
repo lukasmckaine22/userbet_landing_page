@@ -7,6 +7,7 @@ import dropbox from "./dropbox.png";
 import logo from "./logo.svg";
 import mismatch_logo from "./mismatch_logo.jpeg";
 import micro_match_logo_sample from "./micro_match_logo_sample.png";
+import micro_match_logo_1 from "./micro_match_logo_1.jpg";
 import quotes from "./quotes.svg";
 import robot from "./robot.png";
 import send from "./Send.svg";
@@ -60,5 +61,6 @@ export {
   micro_match_logo_sample,
   H2H_graphic,
   slot_machine,
-  micro_match_drafting
+  micro_match_drafting,
+  micro_match_logo_1
 };
