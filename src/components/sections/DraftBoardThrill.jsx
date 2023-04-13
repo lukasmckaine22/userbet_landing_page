@@ -21,8 +21,8 @@ const DraftBoardThrill = () => (
         Feel The Rush With <br className="sm:block hidden" /> Every Micro Draft
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Every draft board brings a new group of players and different positional
-        advantages.
+        Shuffle the players until you find a draft board you like. You never
+        know what you're going to get.
       </p>
       {/* <Button styles={`mt-10`} /> */}
     </div>

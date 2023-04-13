@@ -1,5 +1,12 @@
 import styles from "../../style";
-import { apple, google, discount, robot, slot_machine } from "../../assets";
+import {
+  apple,
+  google,
+  discount,
+  robot,
+  slot_machine,
+  micro_match_qr_code,
+} from "../../assets";
 import GetStarted from "../GetStarted";
 
 const Hero = () => {
@@ -12,22 +19,39 @@ const Hero = () => {
         className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
       >
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className="flex-1 font-poppins font-semibold ss:text-[62px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">
+          <h1 className="flex-1 font-poppins font-semibold ss:text-[62px] text-[52px] text-white ss:leading-[75.8px] leading-[55px]">
             Endless Drafting,
             <br className="sm:block hidden" />{" "}
             <span className="text-gradient">Unlimited</span>{" "}
           </h1>
         </div>
 
-        <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[55px] w-full">
+        <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[75.8px] leading-[55px] w-full">
           Draft Boards
         </h1>
         <p className={`${styles.paragraph} max-w-[670px] mt-5`}>
           Revolutionize your fantasy football experience with our innovative
-          <span style={{ color: "#00FF00" }}> head to head </span>
-          snake drafts with{" "}
+          <span style={{ color: "#00FF00" }}> Head-To-Head </span>
           <span style={{ color: "#00FF00" }}>Micro Draft Boards.</span>
         </p>
+        <div className="flex flex-row mt-5">
+          <p
+            className={`${styles.paragraph} mt-5 md:text-right text-left`}
+            style={{ color: "white" }}
+          >
+            Download
+            <br />
+            Micro Match <span className="">&rarr;</span>
+          </p>
+          <div className={`${styles.flexCenter} sm:ml-10 ml-0 sm:mt-0 mt-10`}>
+            <img
+              src={micro_match_qr_code}
+              alt="hoobank"
+              className="w-[120px] h-[120px]"
+            />
+          </div>
+        </div>
+
         <div className="flex flex-row flex-wrap sm:mt-10 mt-6">
           <img
             src={apple}

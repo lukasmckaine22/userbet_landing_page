@@ -7,7 +7,7 @@ import dropbox from "./dropbox.png";
 import logo from "./logo.svg";
 import mismatch_logo from "./mismatch_logo.jpeg";
 import micro_match_logo_sample from "./micro_match_logo_sample.png";
-import micro_match_logo_1 from "./micro_match_logo_1.jpg";
+import micro_match_logo_1 from "./micro_match_logo_1.png";
 import quotes from "./quotes.svg";
 import robot from "./robot.png";
 import send from "./Send.svg";
@@ -29,6 +29,7 @@ import people03 from "./people03.png";
 import H2H_graphic from "./H2H_graphic.png";
 import slot_machine from "./micro_match_slot_machine_animation.mp4";
 import micro_match_drafting from "./micro_match_drafting.jpeg";
+import micro_match_qr_code from "./micro_match_qr_code.jpeg";
 
 
 export {
@@ -62,5 +63,6 @@ export {
   H2H_graphic,
   slot_machine,
   micro_match_drafting,
-  micro_match_logo_1
+  micro_match_logo_1,
+  micro_match_qr_code
 };

@@ -23,24 +23,24 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "50/50% Win",
+    title: "50% Chance To Win",
     content:
-      "Don't compete against 1,000 or even 10 teams. All you need is to beat one.",
+      "Don't compete against thousands or even ten users. Just beat one roster to win. Win over 50% of your matches to be profitable over the long run.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "Level Up",
+    title: "Designed for H2H matchups",
     content:
-      "Create rivalries while you build up your rating and take on the NFL",
+      "H2H drafts get boring quickly, not with Micro Match. Micro draft boards were designed to make H2H drafts everlasting.",
   },
-  {
-    id: "feature-3",
-    icon: send,
-    title: "No Wait Time",
-    content:
-      "Non stop back to back picks with no wait time in between.",
-  },
+  // {
+  //   id: "feature-3",
+  //   icon: send,
+  //   title: "Faster Drafts",
+  //   content:
+  //     "Non stop back to back picks with no wait time in between.",
+  // },
 ];
 
 export const feedback = [

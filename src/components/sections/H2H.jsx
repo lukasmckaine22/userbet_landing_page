@@ -1,6 +1,7 @@
 import { features } from "../../constants";
 import styles, { layout } from "../../style";
 import Button from "../Button";
+import { H2H_graphic } from "../../assets";
 
 const FeatureCard = ({ icon, title, content, index }) => (
   <div
@@ -26,24 +27,40 @@ const FeatureCard = ({ icon, title, content, index }) => (
 
 const H2H = () => (
   <section id="features" className={layout.section}>
-    <div className={layout.sectionInfo}>
-      <h2 className={styles.heading2}>
-        Head-to-Head Drafts <br className="sm:block hidden" />
-      </h2>
-      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Twelve person fantasy leagues work with all NFL players available. Micro
-        draft Boards are designed for two player drafts.
-      </p>
+    <div className={layout.sectionImgReverse}>
+      <img
+        src={H2H_graphic}
+        alt="billing"
+        className="w-[100%] h-[100%] relative z-[5]"
+      />
 
-      {/* <Button styles={`mt-10`} /> */}
+      {/* gradient start */}
+      <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient" />
+      <div className="absolute z-[0] w-[50%] h-[50%] -left-1/2 bottom-0 rounded-full pink__gradient" />
+      {/* gradient end */}
     </div>
 
-    <div className={`${layout.sectionImg} flex-col`}>
-      {features.map((feature, index) => (
-        <FeatureCard key={feature.id} {...feature} index={index} />
-      ))}
+    <div className={layout.sectionInfo}>
+      <div className={`${layout.sectionImg} flex-col`}>
+        <h1 className={styles.heading2}>Head-To-Head Drafts</h1>
+        {features.map((feature, index) => (
+          <FeatureCard key={feature.id} {...feature} index={index} />
+        ))}
+      </div>
     </div>
   </section>
 );
 
 export default H2H;
+
+{
+  /* <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+        Micro draft boards were designed to make H2H drafts fun. Now you only
+        have to out draft ONE person to DOUBLE your money instead of ten or even
+        thousands.
+      </p> */
+}
+
+{
+  /* <Button styles={`mt-10`} /> */
+}

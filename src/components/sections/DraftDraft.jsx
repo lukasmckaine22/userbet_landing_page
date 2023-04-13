@@ -6,10 +6,11 @@ const DraftDraft = () => (
   <section className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        Draft, Draft & Draft Again! <br className="sm:block hidden" /> 
+        Draft, Draft & Draft Again! <br className="sm:block hidden" />
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        No two drafts are the same! Develop new strategies and tactics for each draft board.
+        No two drafts are the same! Develop new strategies and tactics for each
+        draft board.
       </p>
 
       <Button styles={`mt-10`} />

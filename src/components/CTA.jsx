@@ -1,5 +1,6 @@
 import styles from "../style";
 import Button from "./Button";
+import { micro_match_qr_code } from "../assets";
 
 const CTA = () => (
   <section
@@ -18,7 +19,11 @@ const CTA = () => (
     </div>
 
     <div className={`${styles.flexCenter} sm:ml-10 ml-0 sm:mt-0 mt-10`}>
-      <Button />
+      <img
+        src={micro_match_qr_code}
+        alt="hoobank"
+        className="w-[120px] h-[120px]"
+      />
     </div>
   </section>
 );

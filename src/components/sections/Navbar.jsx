@@ -10,7 +10,7 @@ const Navbar = () => {
       <img
         src={micro_match_logo_1}
         alt="hoobank"
-        className="w-[175px] h-[140px]"
+        className="w-[120px] h-[90px]"
       />
       <div
         className={`font-poppins font-normal font-bold align-bottom cursor-pointer text-[36px] text-white leading-[35px]`}

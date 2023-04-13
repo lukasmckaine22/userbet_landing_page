@@ -374,6 +374,20 @@
   opacity: 1;
 }
 
+.text-div {
+  color: grey;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .text-div
+   {
+    
+    font-size: 20px;
+  }
+}
 
 
 

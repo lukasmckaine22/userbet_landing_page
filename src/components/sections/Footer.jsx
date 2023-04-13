@@ -4,16 +4,20 @@ import { footerLinks, socialMedia } from "../../constants";
 
 const Footer = () => (
   <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
-    <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
-      <div className="flex-[1] flex flex-col justify-start mr-10">
+    <div
+      className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full justify-center`}
+    >
+      <div className="flex-[1] flex flex-col justify-center mr-10 items-center">
         <div style={{ display: "flex", alignItems: "center" }}>
           <img
             src={micro_match_logo_1}
             alt="hoobank"
-            className="w-[266px] h-[72.14px] object-contain"
+            className="w-[266px] h-[72.14px] object-contain text-center"
           />
         </div>
-        <p className={`${styles.paragraph} mt-4 max-w-[312px]`}>
+        <p
+          className={`${styles.paragraph} mt-4 max-w-[312px] text-left items-center`}
+        >
           Micro Match strives to create unique fantasy games that focus on the
           two best parts of fantasy, snake drafts and H2H matchups.
         </p>
@@ -56,7 +60,7 @@ const Footer = () => (
             key={social.id}
             src={social.icon}
             alt={social.id}
-            className={`w-[21px] h-[21px] object-contain cursor-pointer ${
+            className={`w-[45px] h-[45px] object-contain cursor-pointer ${
               index !== socialMedia.length - 1 ? "mr-6" : "mr-0"
             }`}
             onClick={() => window.open(social.link)}
