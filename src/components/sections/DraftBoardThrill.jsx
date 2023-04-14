@@ -1,11 +1,11 @@
-import { apple, bill, google, micro_match_drafting } from "../../assets";
+import { apple, bill, google } from "../../assets";
 import styles, { layout } from "../../style";
 import ImageRotator from "../image_rotator";
 import Button from "../Button";
 import RedRectangle from "../pick_up/drafting_screen";
 
 const DraftBoardThrill = () => (
-  <section id="product" className={layout.sectionReverse}>
+  <section id="thrill" className={`${layout.sectionReverse} flex-col-reverse`}>
     <div className={layout.sectionImgReverse}>
       {/* <img src={micro_match_drafting} alt="billing" className="image-size" /> */}
       {/* <ImageRotator /> */}

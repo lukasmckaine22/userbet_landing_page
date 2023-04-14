@@ -28,7 +28,6 @@ import people02 from "./people02.png";
 import people03 from "./people03.png";
 import H2H_graphic from "./H2H_graphic.png";
 import slot_machine from "./micro_match_slot_machine_animation.mp4";
-import micro_match_drafting from "./micro_match_drafting.jpeg";
 import micro_match_qr_code from "./micro_match_qr_code.jpeg";
 
 
@@ -62,7 +61,6 @@ export {
   micro_match_logo_sample,
   H2H_graphic,
   slot_machine,
-  micro_match_drafting,
   micro_match_logo_1,
   micro_match_qr_code
 };

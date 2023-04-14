@@ -6,7 +6,7 @@ import { H2H_graphic } from "../../assets";
 const FeatureCard = ({ icon, title, content, index }) => (
   <div
     className={`flex flex-row p-6 rounded-[20px] ${
-      index !== features.length - 1 ? "mb-6" : "mb-0"
+      index !== features.length - 1 ? "mb-1" : "mb-0"
     } feature-card`}
   >
     <div
@@ -26,7 +26,7 @@ const FeatureCard = ({ icon, title, content, index }) => (
 );
 
 const H2H = () => (
-  <section id="features" className={layout.section}>
+  <section id="h2h" className={`${layout.section} flex-col-reverse`}>
     <div className={layout.sectionImgReverse}>
       <img
         src={H2H_graphic}
@@ -42,7 +42,7 @@ const H2H = () => (
 
     <div className={layout.sectionInfo}>
       <div className={`${layout.sectionImg} flex-col`}>
-        <h1 className={styles.heading2}>Head-To-Head Drafts</h1>
+        <h1 className={`${styles.heading2} mb-5 `}>Head-To-Head</h1>
         {features.map((feature, index) => (
           <FeatureCard key={feature.id} {...feature} index={index} />
         ))}

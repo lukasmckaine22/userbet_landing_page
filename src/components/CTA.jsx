@@ -14,7 +14,8 @@ const CTA = () => (
         className={`${styles.paragraph}  mt-5 md:text-right text-left`}
         style={{ color: "#00FF00" }}
       >
-        Download Micro Match <span className="inline-block">&rarr;</span>
+        Download <br className="sm:block hidden" /> Micro Match{" "}
+        <span className="inline-block md:inline">&rarr;</span>
       </p>
     </div>
 

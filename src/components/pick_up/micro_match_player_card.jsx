@@ -1,5 +1,5 @@
 import React from "react";
-import { apple, google, discount, micro_match_drafting } from "../../assets";
+import { apple, google, discount } from "../../assets";
 
 const MicroMatchPlayerCard = ({ player }) => {
   return (

@@ -323,8 +323,8 @@
   .bottom-middle-square,
   .bottom-left-square
    {
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     font-size: 24px;
   }
 }
@@ -385,10 +385,21 @@
   .text-div
    {
     
-    font-size: 20px;
+    font-size: 16px;
   }
 }
 
+@media (max-width: 599.98px) {
+  .inline-block {
+    display: none;
+  }
+}
+
+@media (min-width: 600px) {
+  .lg\:inline {
+    display: inline;
+  }
+}
 
 
 

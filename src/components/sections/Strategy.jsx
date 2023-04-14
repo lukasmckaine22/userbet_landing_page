@@ -4,7 +4,7 @@ import Rectangle from "../DraftBoard";
 import "../../index.css";
 
 const Strategy = () => (
-  <section id="product" className={layout.sectionReverse}>
+  <section id="strategy" className={`${layout.sectionReverse} flex-col`}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
         1,000 Matches <br className="sm:block hidden" /> 1,000 Unique Draft

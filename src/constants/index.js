@@ -6,17 +6,18 @@ export const navLinks = [
     title: "Home",
   },
   {
-    id: "features",
+    id: "thrill",
+    title: "Draft Board",
+  },
+  {
+    id: "strategy",
+    title: "Strategy",
+  },
+  {
+    id: "h2h",
     title: "Head-To-Head",
   },
-  {
-    id: "product",
-    title: "Product",
-  },
-  {
-    id: "clients",
-    title: "Clients",
-  },
+
 ];
 
 export const features = [
@@ -30,17 +31,17 @@ export const features = [
   {
     id: "feature-2",
     icon: shield,
-    title: "Designed for H2H matchups",
+    title: "Draft Boards Designed for H2H",
     content:
-      "H2H drafts get boring quickly, not with Micro Match. Micro draft boards were designed to make H2H drafts everlasting.",
+      "H2H drafts get boring quickly, not with Micro Match. Micro draft boards were designed to make H2H drafts fun and original.",
   },
-  // {
-  //   id: "feature-3",
-  //   icon: send,
-  //   title: "Faster Drafts",
-  //   content:
-  //     "Non stop back to back picks with no wait time in between.",
-  // },
+  {
+    id: "feature-3",
+    icon: send,
+    title: "Level Up",
+    content:
+      "Build up your rating and play against your own compeition.",
+  },
 ];
 
 export const feedback = [
@@ -98,31 +99,31 @@ export const footerLinks = [
       },
     ],
   },
-  {
-    title: "Useful Links",
-    links: [
-      {
-        name: "Contact",
-        link: "juused@juused.com",
-      },
-      {
-        name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
-      },
-      {
-        name: "Create",
-        link: "https://www.hoobank.com/create/",
-      },
-      {
-        name: "Explore",
-        link: "https://www.hoobank.com/explore/",
-      },
-      {
-        name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
-      },
-    ],
-  },
+  // {
+  //   title: "Useful Links",
+  //   links: [
+  //     {
+  //       name: "Contact",
+  //       link: "juused@juused.com",
+  //     },
+  //     {
+  //       name: "How it Works",
+  //       link: "https://www.hoobank.com/how-it-works/",
+  //     },
+  //     {
+  //       name: "Create",
+  //       link: "https://www.hoobank.com/create/",
+  //     },
+  //     {
+  //       name: "Explore",
+  //       link: "https://www.hoobank.com/explore/",
+  //     },
+  //     {
+  //       name: "Terms & Services",
+  //       link: "https://www.hoobank.com/terms-and-services/",
+  //     },
+  //   ],
+  // },
   // {
   //   title: "Community",
   //   links: [

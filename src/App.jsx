@@ -13,19 +13,19 @@ import {
   Hero,
 } from "./components";
 import MicroMatchPlayerCard from "./components/pick_up/micro_match_player_card";
-import { apple, google, discount, micro_match_drafting } from "./assets";
+import { apple, google, discount } from "./assets";
 import Player from "./models/player";
 
 const App = () => {
   return (
-    <div className="bg-primary w-full overflow-hidden">
+    <div className="bg-primary bg-slate-950 w-full overflow-hidden">
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <Navbar />
         </div>
       </div>
 
-      <div className={`bg-primary ${styles.flexStart}`}>
+      <div className={` ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
           <Hero />
         </div>
