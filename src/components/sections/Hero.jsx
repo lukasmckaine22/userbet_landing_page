@@ -20,15 +20,16 @@ const Hero = () => {
       >
         <div className="flex flex-row justify-between items-center w-full">
           <h1 className="flex-1 font-poppins font-semibold ss:text-[62px] text-[52px] text-white ss:leading-[75.8px] leading-[55px]">
-            Endless Drafting,
+            <span className="text-gradient italic-text">Feel</span> The{" "}
+            <span className="text-gradient">Rush</span>{" "}
             <br className="sm:block hidden" />{" "}
-            <span className="text-gradient">Unlimited</span>{" "}
+            <span className="">With Every</span>{" "}
           </h1>
         </div>
-
-        <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[75.8px] leading-[55px] w-full">
-          Draft Boards
+        <h1 className="text-gradient font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[75.8px] leading-[55px] w-full">
+          Micro Draft Board
         </h1>
+
         <p className={`${styles.paragraph} max-w-[670px] mt-5`}>
           Revolutionize your fantasy football experience with our innovative
           <span style={{ color: "#00FF00" }}> Head-To-Head </span>
