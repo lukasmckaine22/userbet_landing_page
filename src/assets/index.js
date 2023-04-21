@@ -5,11 +5,9 @@ import card from "./card.png";
 import coinbase from "./coinbase.png";
 import dropbox from "./dropbox.png";
 import logo from "./logo.svg";
-import mismatch_logo from "./mismatch_logo.jpeg";
 import micro_match_logo_sample from "./micro_match_logo_sample.png";
 import micro_match_logo_1 from "./micro_match_logo_1.png";
 import quotes from "./quotes.svg";
-import robot from "./robot.png";
 import send from "./Send.svg";
 import shield from "./Shield.svg";
 import star from "./Star.svg";
@@ -23,13 +21,10 @@ import facebook from "./facebook.svg";
 import instagram from "./instagram.svg";
 import linkedin from "./linkedin.svg";
 import twitter from "./twitter.svg";
-import people01 from "./people01.png";
-import people02 from "./people02.png";
-import people03 from "./people03.png";
 import H2H_graphic from "./H2H_graphic.png";
-import slot_machine from "./micro_match_slot_machine_animation.mp4";
+import slot_machine from "./micro_match_slot_machine.mp4";
 import micro_match_qr_code from "./micro_match_qr_code.jpeg";
-
+import micro_match_thrill from "./micro_match_slot_animation_webm.webm";
 
 export {
   airbnb,
@@ -40,7 +35,6 @@ export {
   dropbox,
   logo,
   quotes,
-  robot,
   send,
   shield,
   star,
@@ -54,13 +48,10 @@ export {
   instagram,
   linkedin,
   twitter,
-  people01,
-  people02,
-  people03,
-  mismatch_logo,
   micro_match_logo_sample,
   H2H_graphic,
   slot_machine,
   micro_match_logo_1,
-  micro_match_qr_code
+  micro_match_qr_code,
+  micro_match_thrill
 };

@@ -1,4 +1,4 @@
-import { apple, bill, google } from "../../assets";
+import { apple, bill, google, micro_match_thrill } from "../../assets";
 import styles, { layout } from "../../style";
 import ImageRotator from "../image_rotator";
 import Button from "../Button";
@@ -7,18 +7,15 @@ import RedRectangle from "../pick_up/drafting_screen";
 const DraftBoardThrill = () => (
   <section id="thrill" className={`${layout.sectionReverse} flex-col-reverse`}>
     <div className={layout.sectionImgReverse}>
-      {/* <img src={micro_match_drafting} alt="billing" className="image-size" /> */}
-      {/* <ImageRotator /> */}
-      <RedRectangle />
-
-      {/* gradient start */}
-      <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient" />
-      <div className="absolute z-[0] w-[50%] h-[50%] -left-1/2 bottom-0 rounded-full pink__gradient" />
-      {/* gradient end */}
+      <video className="w-[75%] h-[75%] relative z-[5]" autoPlay loop muted>
+        <source src={micro_match_thrill} />
+        Your browser does not support the video tag.
+      </video>
     </div>
-    <div className={layout.sectionInfo}>
-      <h2 className={styles.heading2}>
-        Feel The Rush With <br className="sm:block hidden" /> Every Micro Draft
+    <div className={`${layout.sectionInfo} items-center`}>
+      <h2 className={`${styles.heading2} text-center`}>
+        You Pick The
+        <br className="sm:block hidden" /> Draft Board
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
         Shuffle the players until you find a draft board you like. You never

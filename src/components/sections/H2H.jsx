@@ -40,9 +40,11 @@ const H2H = () => (
       {/* gradient end */}
     </div>
 
-    <div className={layout.sectionInfo}>
+    <div className={`${layout.sectionInfo} items-center`}>
       <div className={`${layout.sectionImg} flex-col`}>
-        <h1 className={`${styles.heading2} mb-5 `}>Head-To-Head</h1>
+        <h1 className={`${styles.heading2} mb-5 text-center`}>
+          Head-To-Head Only
+        </h1>
         {features.map((feature, index) => (
           <FeatureCard key={feature.id} {...feature} index={index} />
         ))}

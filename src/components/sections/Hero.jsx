@@ -3,34 +3,30 @@ import {
   apple,
   google,
   discount,
-  robot,
   slot_machine,
   micro_match_qr_code,
 } from "../../assets";
 import GetStarted from "../GetStarted";
+import "../../index.css";
 
 const Hero = () => {
   return (
-    <section
-      id="home"
-      className={`flex md:flex-row flex-col ${styles.paddingY}`}
-    >
+    <section id="home" className={`flex md:flex-row flex-col`}>
       <div
-        className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
+        className={`flex-1 ${styles.flexCenter} text-start flex-col xl:px-0 sm:px-16 px-6`}
       >
-        <div className="flex flex-row justify-between items-center w-full">
-          <h1 className="flex-1 font-poppins font-semibold ss:text-[62px] text-[52px] text-white ss:leading-[75.8px] leading-[55px]">
-            <span className="text-gradient italic-text">Feel</span> The{" "}
-            <span className="text-gradient">Rush</span>{" "}
+        <div className="flex flex-row justify-between text-left">
+          <h1 className="flex-1 text-start font-poppins font-semibold ss:text-[52px] text-[35px] text-white ss:leading-[75.8px] leading-[45px]">
+            {/* <span className="text-gradient italic-text">Feel The Rush </span>{" "} */}
             <br className="sm:block hidden" />{" "}
-            <span className="">With Every</span>{" "}
+            <span className="">Feel The Rush With</span>{" "}
           </h1>
         </div>
-        <h1 className="text-gradient font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[75.8px] leading-[55px] w-full">
-          Micro Draft Board
+        <h1 className="text-gradient italic-text font-poppins font-semibold ss:text-[52px] text-[35px] text-white ss:leading-[75.8px] leading-[45px] ">
+          Micro Draft Boards
         </h1>
 
-        <p className={`${styles.paragraph} max-w-[670px] mt-5`}>
+        <p className={`${styles.paragraph} max-w-[620px] mt-5 items-center`}>
           Revolutionize your fantasy football experience with our innovative
           <span style={{ color: "#00FF00" }}> Head-To-Head </span>
           <span style={{ color: "#00FF00" }}>Micro Draft Boards.</span>

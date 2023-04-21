@@ -6,7 +6,6 @@ import Clients from "./sections/Clients";
 import CTA from "./CTA";
 import Stats from "./sections/Stats";
 import Footer from "./sections/Footer";
-import Testimonials from "./sections/Testimonials";
 import Hero from "./sections/Hero";
 import DraftBoardThrill from "./sections/DraftBoardThrill";
 import ImageRotator from "./image_rotator";
@@ -20,7 +19,6 @@ export {
   CTA,
   Stats,
   Footer,
-  Testimonials,
   Hero,
   DraftBoardThrill,
   ImageRotator

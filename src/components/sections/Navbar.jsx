@@ -13,7 +13,7 @@ const Navbar = () => {
         className="w-[120px] h-[90px]"
       />
       <div
-        className={`font-poppins font-normal font-bold align-bottom cursor-pointer text-[36px] text-white leading-[35px]`}
+        className={`font-poppins font-normal font-bold align-bottom cursor-pointer xs:text-[36px] text-[28px] text-white leading-[35px]`}
       >
         Micro Match
       </div>
@@ -23,7 +23,7 @@ const Navbar = () => {
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
-            className={`font-poppins font-normal cursor-pointer text-[16px] text-white ${
+            className={`font-poppins font-normal cursor-pointer text-[20px] text-white ${
               index === navLinks.length - 1 ? "mr-0" : "mr-10"
             }`}
           >
