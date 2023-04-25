@@ -1,14 +1,11 @@
-import { apple, bill, google, micro_match_thrill } from "../../assets";
+import { micro_match_game_play } from "../../assets";
 import styles, { layout } from "../../style";
-import ImageRotator from "../image_rotator";
-import Button from "../Button";
-import RedRectangle from "../pick_up/drafting_screen";
 
 const DraftBoardThrill = () => (
   <section id="thrill" className={`${layout.sectionReverse} flex-col-reverse`}>
     <div className={layout.sectionImgReverse}>
       <video className="w-[75%] h-[75%] relative z-[5]" autoPlay loop muted>
-        <source src={micro_match_thrill} />
+        <source src={micro_match_game_play} />
         Your browser does not support the video tag.
       </video>
     </div>

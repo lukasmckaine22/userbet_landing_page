@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { close, logo, menu, micro_match_logo_1 } from "../../assets";
+import { close, menu, micro_match_logo_1 } from "../../assets";
 import { navLinks } from "../../constants";
 
 const Navbar = () => {

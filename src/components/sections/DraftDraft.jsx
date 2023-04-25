@@ -1,4 +1,4 @@
-import { card, H2H_graphic } from "../../assets";
+import { H2H_graphic } from "../../assets";
 import styles, { layout } from "../../style";
 import Button from "../Button";
 

@@ -1,5 +1,4 @@
 import styles from "../style";
-import Button from "./Button";
 import { micro_match_qr_code } from "../assets";
 
 const CTA = () => (

@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
-import { apple, google, discount } from "../assets";
+import { apple, google } from "../assets";
 
 function ImageRotator() {
-  const imageArray = [apple, google, discount];
+  const imageArray = [apple, google];
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {

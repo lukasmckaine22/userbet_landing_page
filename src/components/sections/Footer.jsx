@@ -1,5 +1,5 @@
 import styles from "../../style";
-import { logo, micro_match_logo_1 } from "../../assets";
+import { micro_match_logo_1 } from "../../assets";
 import { footerLinks, socialMedia } from "../../constants";
 
 const Footer = () => (

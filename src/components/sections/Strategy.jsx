@@ -1,6 +1,4 @@
-import { apple, bill, google } from "../../assets";
 import styles, { layout } from "../../style";
-import Rectangle from "../DraftBoard";
 import "../../index.css";
 import Grid from "../ColorGrid";
 

@@ -2,18 +2,12 @@ import styles from "./style";
 import {
   Billing,
   Business,
-  CardDeal,
-  Clients,
   CTA,
   DraftBoardThrill,
   Footer,
   Navbar,
-  Stats,
   Hero,
 } from "./components";
-import MicroMatchPlayerCard from "./components/pick_up/micro_match_player_card";
-import { apple, google, discount } from "./assets";
-import Player from "./models/player";
 
 const App = () => {
   return (
@@ -32,10 +26,7 @@ const App = () => {
 
       <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
-          {/* <Stats /> */}
           <DraftBoardThrill />
-          {/* <MicroMatchPlayerCard player={examplePlayer} /> */}
-          {/* <CardDeal /> */}
           <Billing />
           <Business />
           <CTA />

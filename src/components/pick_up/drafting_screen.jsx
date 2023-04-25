@@ -1,7 +1,7 @@
 import React from "react";
 import Player from "../../models/player";
 import MicroMatchPlayerCard from "./micro_match_player_card";
-import { apple, google, discount } from "../../assets";
+import { apple, google } from "../../assets";
 import SquareRow from "./position_filter";
 import Pill from "../Pill";
 
