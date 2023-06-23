@@ -11,21 +11,21 @@ import {
 
 const App = () => {
   return (
-    <div className="bg-primary  w-full overflow-hidden">
+    <div className="bg-custom-blue w-full overflow-hidden">
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <Navbar />
         </div>
       </div>
 
-      <div className={`bg-primary ${styles.flexStart}`}>
-        <div className={`${styles.boxWidth}`}>
+      <div className={` ${styles.flexStart}`}>
+        <div className={` ${styles.boxWidth}`}>
           <Hero />
         </div>
       </div>
 
-      <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
-        <div className={`${styles.boxWidth}`}>
+      <div className={` ${styles.paddingX} ${styles.flexCenter}`}>
+        <div className={` ${styles.boxWidth}`}>
           <DraftBoardThrill />
           <Billing />
           <Business />

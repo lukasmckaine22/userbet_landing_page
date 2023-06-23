@@ -48,6 +48,11 @@
   );
 }
 
+.text-highlight {
+  color: #FF00FF; /* Replace with your desired color */
+}
+
+
 .bg-black-gradient {
   background: linear-gradient(
     144.39deg,

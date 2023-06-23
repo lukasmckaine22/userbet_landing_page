@@ -15,7 +15,7 @@ const Navbar = () => {
       <div
         className={`font-poppins font-normal font-bold align-bottom cursor-pointer xs:text-[36px] text-[28px] text-white leading-[35px]`}
       >
-        Micro Match
+        Micro Draft
       </div>
 
       {/* List of NavBar Choices */}
@@ -44,7 +44,7 @@ const Navbar = () => {
         <div
           className={`${
             toggle ? "flex" : "hidden"
-          } p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}
+          } p-6 absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}
         >
           <ul className="list-none flex justify-end items-center flex-1 flex-col ">
             {navLinks.map((nav, index) => (

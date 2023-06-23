@@ -1,4 +1,4 @@
-import { twitter, send, shield, star  } from "../assets";
+import { twitter, send, shield, star, discord  } from "../assets";
 
 export const navLinks = [
   {
@@ -26,14 +26,14 @@ export const features = [
     icon: star,
     title: "50% Chance To Win",
     content:
-      "Don't compete against thousands or even ten users. Just beat one roster to win. Win over 50% of your matches to be profitable over the long run.",
+      "Don't compete against thousands or even ten users. Beat one user to win.",
   },
   {
     id: "feature-2",
     icon: shield,
     title: "Draft Boards Designed for H2H",
     content:
-      "H2H drafts get boring quickly, not with Micro Match. Micro draft boards were designed to make H2H drafts fun and original.",
+      "Micro draft boards are designed to give H2H drafts a unique experience.",
   },
   // {
   //   id: "feature-3",
@@ -151,9 +151,14 @@ export const socialMedia = [
   //   link: "https://www.facebook.com/",
   // },
   {
-    id: "social-media-3",
+    id: "social-media-2",
     icon: twitter,
     link: "https://twitter.com/MicroMatch_",
+  },
+  {
+    id: "social-media-3",
+    icon: discord,
+    link: "https://discord.gg/EYtQSZMc",
   },
   // {
   //   id: "social-media-4",

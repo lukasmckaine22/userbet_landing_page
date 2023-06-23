@@ -18,8 +18,8 @@ const Footer = () => (
         <p
           className={`${styles.paragraph} mt-4 max-w-[312px] text-left items-center`}
         >
-          Micro Match strives to create unique fantasy games that focus on the
-          two best parts of fantasy, snake drafts and H2H matchups.
+          Micro Draft strives to innovate on the two best parts of fantasy
+          sports, snake drafts and H2H matchups.
         </p>
       </div>
 
@@ -36,7 +36,7 @@ const Footer = () => (
               {footerlink.links.map((link, index) => (
                 <li
                   key={link.name}
-                  className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer ${
+                  className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-highlight cursor-pointer ${
                     index !== footerlink.links.length - 1 ? "mb-4" : "mb-0"
                   }`}
                 >

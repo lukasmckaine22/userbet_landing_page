@@ -6,8 +6,8 @@ const Strategy = () => (
   <section id="strategy" className={`${layout.sectionReverse} flex-col `}>
     <div className={`${layout.sectionInfo} items-center`}>
       <p className={`${styles.heading2} items-center text-center`}>
-        Ultimate Strategy
-        <br className="sm:block hidden" /> Draft Boards
+        Unleash
+        <br className="sm:block hidden" /> New Strategies
       </p>
       <p className={`${styles.paragraph} max-w-[470px] mt-5 `}>
         Every draft board brings new players and different positional

@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section id="home" className={`flex md:flex-row flex-col`}>
       <div
-        className={`flex-1 ${styles.flexCenter}  flex-col xl:px-0 sm:px-16 px-6`}
+        className={`flex-1 ${styles.flexCenter} flex-col xl:px-0 sm:px-16 px-6`}
       >
         <div className="flex flex-row justify-between text-left">
           <h1 className="flex-1  font-poppins font-semibold ss:text-[52px] text-[35px] text-white ss:leading-[65.8px] leading-[45px]">
@@ -14,13 +14,15 @@ const Hero = () => {
             <span className="">Feel The Rush With</span>{" "}
           </h1>
         </div>
-        <h1 className="text-gradient italic-text  font-poppins font-semibold ss:text-[62px] text-[35px] text-white ss:leading-[75.8px] leading-[45px] ">
+        <h1 className="text-gradient italic-text font-poppins font-semibold ss:text-[62px] text-[35px] text-white ss:leading-[75.8px] leading-[45px] p-[10px]">
           Micro Draft Boards
-        </h1>{" "}
+        </h1>
+
         <p className={`${styles.paragraph} max-w-[620px] mt-5 items-center`}>
           Revolutionize your fantasy football experience with our innovative
-          <span style={{ color: "#00FF00" }}> Head-To-Head </span>
-          <span style={{ color: "#00FF00" }}>Micro Draft Boards.</span>
+          {/* <span style={{ color: "#00FF00" }}> Head-To-Head </span> */}
+          <span style={{ color: "#00FF00" }}> Micro Draft Boards. </span>
+          Out draft 1 user to profit.
         </p>
         <div className="flex flex-row mt-5">
           <div
@@ -60,7 +62,13 @@ const Hero = () => {
       <div
         className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}
       >
-        <video className="w-[75%] h-[75%] relative z-[5]" autoPlay loop muted>
+        <video
+          className="w-[75%] h-[75%] relative z-[5]"
+          autoPlay
+          loop
+          muted
+          playsInline
+        >
           <source src={slot_machine} />
           Your browser does not support the video tag.
         </video>

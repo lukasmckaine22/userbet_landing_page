@@ -16,6 +16,7 @@ import H2H_graphic from "./H2H_graphic.png";
 import micro_match_qr_code from "./micro_match_qr_code.jpeg";
 import slot_machine from "./slot_machine.webm";
 import micro_match_game_play from "./micro_match_game_play.webm";
+import discord from "./discord.png";
 
 export {
   send,
@@ -35,5 +36,6 @@ export {
   slot_machine,
   micro_match_logo_1,
   micro_match_qr_code,
-  micro_match_game_play
+  micro_match_game_play,
+  discord
 };
