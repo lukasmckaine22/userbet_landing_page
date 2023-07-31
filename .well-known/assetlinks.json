@@ -1,0 +1,11 @@
+[
+    {
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.juused.juused_fantasy_leagues",
+        "sha256_cert_fingerprints": ["C0:6B:82:CA:DD:9F:9F:28:A6:53:2F:AC:73:FE:F1:3D:96:F5:C1:F0:88:79:68:E5:D7:82:B0:AF:E5:B2:AA:13"]
+      }
+    }
+  ]
+  

@@ -1,0 +1,11 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "QFRV24RGCG.com.juused.juused-fantasy-leagues",
+        "paths": [ "/pickupdraft/*" ]
+      }
+    ]
+  }
+}
