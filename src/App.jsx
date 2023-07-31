@@ -1,3 +1,4 @@
+import React, { useEffect } from "react";
 import styles from "./style";
 import {
   Billing,
@@ -8,8 +9,13 @@ import {
   Navbar,
   Hero,
 } from "./components";
+import { redirectToApp } from "./components/redirect_page";
 
 const App = () => {
+  useEffect(() => {
+    redirectToApp();
+  }, []);
+
   return (
     <div className="bg-custom-blue w-full overflow-hidden">
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
