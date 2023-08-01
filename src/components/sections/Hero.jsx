@@ -34,16 +34,28 @@ const Hero = () => {
             </p>
 
             <div className="flex flex-row flex-wrap sm:mt-3 mt-3">
-              <img
-                src={apple}
-                alt="google_play"
-                className="w-[120px] h-[50px] object-contain md:mr-2 mr-5 cursor-pointer"
-              />
-              <img
-                src={google}
-                alt="google_play"
-                className="w-[120px] h-[50px] object-contain cursor-pointer"
-              />
+              <a
+                href="https://apps.apple.com/us/app/userbet/id1627538375"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={apple}
+                  alt="App Store"
+                  className="w-[120px] h-[50px] object-contain md:mr-2 mr-5 cursor-pointer"
+                />
+              </a>
+              <a
+                href="https://play.google.com/store/apps/details?id=com.juused.juused_fantasy_leagues"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={google}
+                  alt="Google Play"
+                  className="w-[120px] h-[50px] object-contain cursor-pointer"
+                />
+              </a>
             </div>
           </div>
 
