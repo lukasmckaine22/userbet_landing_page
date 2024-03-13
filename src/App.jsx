@@ -13,6 +13,8 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { redirectToApp } from "./components/redirect_page";
 import PickupDraft from "./components/PickupDraft";
 import NotFound from "./components/NotFound";
+import PrivacyPolicy from "./components/PrivacyPolicy";
+import { PDFViewer } from "@react-pdf/renderer";
 
 const Home = () => (
   <div className="bg-custom-blue w-full overflow-hidden">
@@ -51,6 +53,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/pickupdraft/:id" element={<PickupDraft />} />
         <Route path="*" element={<NotFound />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
       </Routes>
     </Router>
   );

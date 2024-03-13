@@ -72,6 +72,37 @@ export const footerLinks = [
         name: "juused@juused.com",
         link: "",
       },
+      
+      {
+        name: "Privacy Policy",
+        link: "userbet_landing_page/public/privacy_policy_micro_draft.pdf",
+      },      
+      {
+        name: "Terms of Service",
+        link: "",
+      },
+    ],
+  },
+  {
+    title: "Registered Agent",
+    links: [
+      {
+        name: "Harvard Business Services, Inc.",
+        link: "",
+      },
+      {
+        name: "16192 Coastal Highway",
+        link: "",
+      },
+      {
+        name: "Lewes, Delaware 19958",
+        link: "",
+      },
+      {
+        name: "Phone: 302-645-7400",
+        link: "",
+      },      
+
     ],
   },
   // {
