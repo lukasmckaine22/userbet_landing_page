@@ -7,7 +7,7 @@ const CTA = () => (
   >
     <div className="flex-1 flex flex-col">
       <h2 className={styles.heading2}>
-        Ready to feel the rush of Micro Drafting?
+        Draft Like You've Never Drafted Before
       </h2>
       <p
         className={`${styles.paragraph}  mt-5 md:text-right text-left`}

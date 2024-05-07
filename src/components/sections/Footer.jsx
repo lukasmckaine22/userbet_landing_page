@@ -44,15 +44,17 @@ const Footer = () => {
               {footerlink.links.map((link, index) => (
                 <li
                   key={link.name}
-                  className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-highlight cursor-pointer ${
-                    index !== footerlink.links.length - 1 ? "mb-4" : "mb-0"
-                  }`}
-                  onClick={() =>
-                    link.name === "Privacy Policy" &&
-                    handleNavigate("/privacy-policy")
-                  }
+                  className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-highlight cursor-pointer ${index !== footerlink.links.length - 1 ? "mb-4" : "mb-0"
+                    }`}
+                  onClick={() => {
+                    if (link.name === "Privacy Policy") {
+                      handleNavigate("/privacy-policy");
+                    } else if (link.name === "Terms of Service") {
+                      handleNavigate("/terms-of-service");
+                    }
+                  }}
                 >
-                  {link.link && link.name !== "Privacy Policy" ? (
+                  {link.link && link.name !== "Privacy Policy" && link.name !== "Terms of Service" ? (
                     <a
                       href={link.link}
                       target="_blank"
@@ -66,6 +68,7 @@ const Footer = () => {
                 </li>
               ))}
             </ul>
+
           </div>
         ))}
       </div>
@@ -81,9 +84,8 @@ const Footer = () => {
               key={social.id}
               src={social.icon}
               alt={social.id}
-              className={`w-[45px] h-[45px] object-contain cursor-pointer ${
-                index !== socialMedia.length - 1 ? "mr-6" : "mr-0"
-              }`}
+              className={`w-[45px] h-[45px] object-contain cursor-pointer ${index !== socialMedia.length - 1 ? "mr-6" : "mr-0"
+                }`}
               onClick={() => window.open(social.link)}
             />
           ))}

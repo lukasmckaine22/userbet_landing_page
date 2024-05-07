@@ -1,4 +1,4 @@
-import { twitter, send, shield, star, discord  } from "../assets";
+import { twitter, send, shield, star, discord } from "../assets";
 
 export const navLinks = [
   {
@@ -72,14 +72,14 @@ export const footerLinks = [
         name: "juused@juused.com",
         link: "",
       },
-      
+
       {
         name: "Privacy Policy",
         link: "userbet_landing_page/public/privacy_policy_micro_draft.pdf",
-      },      
+      },
       {
         name: "Terms of Service",
-        link: "",
+        link: "userbet_landing_page/public/terms_of_service_micro_draft.pdf",
       },
     ],
   },
@@ -101,7 +101,7 @@ export const footerLinks = [
       {
         name: "Phone: 302-645-7400",
         link: "",
-      },      
+      },
 
     ],
   },

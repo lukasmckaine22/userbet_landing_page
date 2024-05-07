@@ -14,6 +14,7 @@ import { redirectToApp } from "./components/redirect_page";
 import PickupDraft from "./components/PickupDraft";
 import NotFound from "./components/NotFound";
 import PrivacyPolicy from "./components/PrivacyPolicy";
+import TermsOfService from "./components/TermsOfService";
 import { PDFViewer } from "@react-pdf/renderer";
 
 const Home = () => (
@@ -54,6 +55,7 @@ const App = () => {
         <Route path="/pickupdraft/:id" element={<PickupDraft />} />
         <Route path="*" element={<NotFound />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/terms-of-service" element={<TermsOfService />} />
       </Routes>
     </Router>
   );
